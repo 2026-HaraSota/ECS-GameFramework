@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{fd5e79c4-6da4-4e58-95d8-958ae7227c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\DirectX">
+      <UniqueIdentifier>{7ed58bd2-46ba-46fb-8fb2-0cbc93a3ec73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Shader">
+      <UniqueIdentifier>{4d805d68-95b9-4feb-9ff0-e5e870d7d7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Shader\VertexShader">
+      <UniqueIdentifier>{d6b7c5b7-258f-4735-b671-6b34025ee418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Shader\PixelShader">
+      <UniqueIdentifier>{1ef2fabd-b0d8-4033-b9ed-14bf09f0628f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ImGui">
+      <UniqueIdentifier>{2e133ad7-cb50-4897-b415-37deac7ad0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Editor">
+      <UniqueIdentifier>{c32157ab-2a09-486d-b1b9-52d9eaa16fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Editor\GUIItem">
+      <UniqueIdentifier>{29dc7ebb-c3a8-48c0-92e8-d1e75f6eed0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Editor\EditorWindows">
+      <UniqueIdentifier>{8ccc434d-e729-4793-aef2-e6b7c3a7aa40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\MainLoop">
+      <UniqueIdentifier>{af874a0a-2b88-4062-98cb-79e182f0f1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ResourceManager">
+      <UniqueIdentifier>{06674e91-365d-4e7d-8c3c-ef41d3495349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ECS">
+      <UniqueIdentifier>{482a230c-f88a-4dfb-a032-bf4b7977cc9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ECS\World-Subscene">
+      <UniqueIdentifier>{98221a90-fbbb-4034-b641-ec286965f5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ECS\Systems">
+      <UniqueIdentifier>{a18f4b06-0324-4808-8265-75586c36fc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ECS\CoreStructure">
+      <UniqueIdentifier>{5db39361-c44e-4b39-99cc-8c7434e8fb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ECS\CoreStructure\Entity">
+      <UniqueIdentifier>{ea1ce200-9dc2-4b7f-bd1b-032e311d184f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ECS\CoreStructure\Component">
+      <UniqueIdentifier>{9c15727f-40b3-444f-9e8b-a12f61d945a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ECS\CoreStructure\System">
+      <UniqueIdentifier>{0e71c5a2-9365-4c69-a566-17ac320ce8b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ECS\Components">
+      <UniqueIdentifier>{c346cbef-9f73-4762-b608-4ddb0724abbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Util">
+      <UniqueIdentifier>{c0262832-095c-4577-aae1-f8dda39b81ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ResourceManager\Sound">
+      <UniqueIdentifier>{b6bbbaac-653c-4d74-bcc1-19ac773e2f05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Code\MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowStartup.cpp">
+      <Filter>Code\MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Code\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBuffer.cpp">
+      <Filter>Code\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Code\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Code\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Code\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Code\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Code\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Code\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Code\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Code\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Code\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorManager.cpp">
+      <Filter>Code\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Code\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometory.cpp">
+      <Filter>Code\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityIdAllocater.cpp">
+      <Filter>Code\ECS\CoreStructure\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityLocator.cpp">
+      <Filter>Code\ECS\CoreStructure\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Code\ECS\CoreStructure\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDataChunk.cpp">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDataManager.cpp">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDataUtil.cpp">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>Code\ECS\CoreStructure\System</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityName.cpp">
+      <Filter>Code\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometrySolid.cpp">
+      <Filter>Code\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelHandle.cpp">
+      <Filter>Code\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Code\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Code\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Velocity.cpp">
+      <Filter>Code\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollisionSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDccSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManagerSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSystemBase.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle2DCollisionSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionRendererSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryRendererSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRendererSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRendererSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRendererSystem.cpp">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldActivateHandle.cpp">
+      <Filter>Code\ECS\World-Subscene</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldBase.cpp">
+      <Filter>Code\ECS\World-Subscene</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>Code\ECS\World-Subscene</Filter>
+    </ClCompile>
+    <ClCompile Include="SubsceneManager.cpp">
+      <Filter>Code\ECS\World-Subscene</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystemOptionWindow.cpp">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="DetailsWindow.cpp">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="TextInputDialog.cpp">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldWindow.cpp">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowBase.cpp">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawFpsGui.cpp">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>Code\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextureManager.cpp">
+      <Filter>Code\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>Code\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="EasingUtil.cpp">
+      <Filter>Code\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>Code\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClip.cpp">
+      <Filter>Code\ResourceManager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Code\ResourceManager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenFade.cpp">
+      <Filter>Code\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPoolManager.cpp">
+      <Filter>Code\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Code\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentRegistry.cpp">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDataUtil.cpp">
+      <Filter>Code\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDataManager.cpp">
+      <Filter>Code\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionBox.cpp">
+      <Filter>Code\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCircle2D.cpp">
+      <Filter>Code\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionResult.cpp">
+      <Filter>Code\ECS\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defines.h">
+      <Filter>Code\MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Code\MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Code\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBuffer.h">
+      <Filter>Code\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Code\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Code\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Code\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Code\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Code\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Code\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Code\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Code\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Code\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Code\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Code\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCheckBox.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputBase.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputFloat.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputFloat3.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputInt.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputText.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiItemBase.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiPopup.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiSelectable.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiTreeNode.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiWindow.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiText.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputColor.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButton.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorManager.h">
+      <Filter>Code\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputFloat2.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Code\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipboardHolder.h">
+      <Filter>Code\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometory.h">
+      <Filter>Code\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputDragFloat.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputDragFloat3.h">
+      <Filter>Code\Editor\GUIItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityIdAllocater.h">
+      <Filter>Code\ECS\CoreStructure\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityLocator.h">
+      <Filter>Code\ECS\CoreStructure\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Code\ECS\CoreStructure\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityTypes.h">
+      <Filter>Code\ECS\CoreStructure\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntityOperator.h">
+      <Filter>Code\ECS\CoreStructure\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntityVersionChecker.h">
+      <Filter>Code\ECS\CoreStructure\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDataChunk.h">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDataManager.h">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="IChunkProvider.h">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponentDataManager.h">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentRegistry.h">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDataUtil.h">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ISystemDistributor.h">
+      <Filter>Code\ECS\CoreStructure\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemBase.h">
+      <Filter>Code\ECS\CoreStructure\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>Code\ECS\CoreStructure\System</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBase.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBox.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCircle2D.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionResult.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityName.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometrySolid.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelHandle.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Velocity.h">
+      <Filter>Code\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollisionSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDccSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManagerSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystemBase.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle2DCollisionSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionRendererSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryRendererSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRendererSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRendererSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRendererSystem.h">
+      <Filter>Code\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldActivateHandle.h">
+      <Filter>Code\ECS\World-Subscene</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldBase.h">
+      <Filter>Code\ECS\World-Subscene</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>Code\ECS\World-Subscene</Filter>
+    </ClInclude>
+    <ClInclude Include="SubsceneManager.h">
+      <Filter>Code\ECS\World-Subscene</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDataBase.h">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystemOptionWindow.h">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="DetailsWindow.h">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="TextInputDialog.h">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldWindow.h">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowBase.h">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawFpsGui.h">
+      <Filter>Code\Editor\EditorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>Code\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextureManager.h">
+      <Filter>Code\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>Code\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="EasingUtil.h">
+      <Filter>Code\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil.h">
+      <Filter>Code\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioClip.h">
+      <Filter>Code\ResourceManager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Code\ResourceManager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenFade.h">
+      <Filter>Code\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPoolManager.h">
+      <Filter>Code\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Code\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentMask.h">
+      <Filter>Code\ECS\CoreStructure\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="IEditDataLoader.h">
+      <Filter>Code\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDataUtil.h">
+      <Filter>Code\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDataManager.h">
+      <Filter>Code\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>Code\ImGui</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VS_Model.hlsl">
+      <Filter>Code\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_TexColor.hlsl">
+      <Filter>Code\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_AlphaFade.hlsl">
+      <Filter>Code\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Sprite.hlsl">
+      <Filter>Code\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Sprite.hlsl">
+      <Filter>Code\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_WorldPos.hlsl">
+      <Filter>Code\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_RimLight.hlsl">
+      <Filter>Code\Shader\PixelShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
